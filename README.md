@@ -3,8 +3,6 @@
 # Controllers
   > ContosoPizza
   -------------------------------------------------
-  [Route("api/[controller]")]
-    [ApiController]
     public class ContosoPizzaController : ControllerBase
     {
 
@@ -53,7 +51,7 @@
     ------------------------------------------------
 # Models
   > Pizza
-   -------------------------------------------------
+  -------------------------------------------------
    public class Pizza
     {
         public int Id { get; set; }
