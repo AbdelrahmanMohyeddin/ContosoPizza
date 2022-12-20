@@ -1,5 +1,5 @@
 # ContosoPizza
-# Example on create a Controller in .net core webapi
+# The example of creating a Controller in .net core webapi
 # Controllers
   > ContosoPizza
   
