@@ -2,7 +2,7 @@
 # Example on create a Controller in .net core webapi
 # Controllers
   > ContosoPizza
-  -------------------------------------------------
+  
     public class ContosoPizzaController : ControllerBase
     {
 
@@ -48,20 +48,20 @@
             return NoContent();
         }
     }
-    ------------------------------------------------
+    
 # Models
   > Pizza
-  -------------------------------------------------
-   public class Pizza
+ 
+    public class Pizza
     {
         public int Id { get; set; }
         public string? Name { get; set; }
         public bool IsGlutenFree { get; set; }
     }
-   -------------------------------------------------
+    
 # Services
   > PizzaService
-  --------------------------------------------------
+  
     public static class PizzaService
     {
         static List<Pizza> Pizzas { get; }
